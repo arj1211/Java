@@ -1,0 +1,24 @@
+package thenewboston.intermediate;
+
+import java.awt.Graphics;
+
+import javax.swing.JPanel;
+
+public class DrawingOvalWithSlider_23 extends JPanel {
+
+	
+	private int diam = 10;
+	public void paintComponent(Graphics g){
+		super.paintComponent(g);
+		
+		g.fillOval(diam, diam, diam, diam);
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

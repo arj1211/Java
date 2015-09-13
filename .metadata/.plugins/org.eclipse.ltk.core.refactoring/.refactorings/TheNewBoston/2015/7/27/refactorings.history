@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;NetworkingApplet_28_29_30_31_32_33.java&apos; to &apos;TheNewBoston/src/thenewboston.intermediate.applets&apos;&#x0D;&#x0A;- Original project: &apos;TheNewBoston&apos;&#x0D;&#x0A;- Destination element: &apos;TheNewBoston/src/thenewboston.intermediate.applets&apos;&#x0D;&#x0A;- Original element: &apos;thenewboston.intermediate.NetworkingApplet_28_29_30_31_32_33.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;thenewboston.intermediate.applets" element1="/src&lt;thenewboston.intermediate{NetworkingApplet_28_29_30_31_32_33.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1435972578224" units="1" version="1.0"/>
+</session>

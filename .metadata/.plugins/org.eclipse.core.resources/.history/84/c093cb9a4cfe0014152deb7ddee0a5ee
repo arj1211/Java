@@ -1,0 +1,13 @@
+package test;
+
+public class Setup extends BasicGame{
+
+	public static void main(String[] args) {
+
+		
+		
+		
+		
+	}
+
+}

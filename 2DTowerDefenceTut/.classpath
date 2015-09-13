@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
+	<classpathentry exported="true" kind="lib" path="lib/jars/slick-util.jar" sourcepath="lib/slick-util-src.zip">
+		<attributes>
+			<attribute name="javadoc_location" value="http://slick.ninjacave.com/javadoc/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="lib/jars/lwjgl_util.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jars/lwjgl.jar" sourcepath="lib/src_lwjgl">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/C:/Users/Arjun/workspace/2DTowerDefenceTut/lib/javadoc/"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="2DTowerDefenceTut/lib/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

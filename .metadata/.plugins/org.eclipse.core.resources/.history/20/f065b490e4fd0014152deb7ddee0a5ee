@@ -1,0 +1,62 @@
+import java.awt.Color;
+import java.awt.Graphics;
+
+
+public class Player {
+
+	private int x,y,r,dx,dy,speed,lives;
+	private boolean left,right,up,down;
+	private Color c1,c2;
+	public Player(){
+		this.x=GamePanel.WIDTH/2;
+		this.y=GamePanel.HEIGHT/2;
+		this.r=5;
+		dx=0;
+		dy=0;
+		speed=5;
+		lives=3;
+		c1=Color.WHITE;
+		c2=Color.red;
+	}
+	
+	
+	
+	
+	
+	public void update(){
+		if (left)
+			dx=-speed;
+		if(right)
+			dx=speed;
+		if(up)
+			dy=-speed;
+		if(down)
+			dy=speed;
+		
+		x+=dx;
+		y+=dy;
+		
+		if(x<r)x=r;
+		if(y<r)y=r;
+		if(x>GamePanel.WIDTH-r)x=GamePanel.WIDTH-r;
+		if(y>GamePanel.HEIGHT-r)y=GamePanel.HEIGHT-r;
+		dx=0;
+		dy=0;
+	}
+	
+	public void draw(Graphics g){
+		
+		g.setColor(c1);
+		g.fillOval(x-r, y-r, 2*r, 2*r);
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

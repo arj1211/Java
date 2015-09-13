@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="96" height="20" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="grassy_tileset" tilewidth="32" tileheight="32">
+  <image source="grassy_tileset.png" width="640" height="1280"/>
+  <tile id="0">
+   <properties>
+    <property name="tileType" value="air"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="CollisionLayer" width="96" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2Y2QrEIAxFna5Dwf//3WmhBXFcsLE3sebhQF6s5rhUMxpjRjAbCHReLfDd+YBYBeQrDfUfBnUmbED/yJwoZyRyTSr/+5PT/1AZbqet+e8Z9a/+e0b9q/+e4fSPvNPEvmlP/Bh1v6L6t04s9W44mPgbfDrx49S7uWZOFP/WGe+BpHdvyj3Vf2w+kP4v99PNfp/wHCJXg6rhnzIPd/y77iX4T3nO+Zp3lkBMqaOVnE+X/yXQLsbs9FXSrvZ/IbfGpZDKUUp9tnQOWvCe2xf+WuamZL9wj1V5Dz/Vyuj6AB4AAA==
+  </data>
+ </layer>
+</map>

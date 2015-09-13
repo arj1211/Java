@@ -1,0 +1,7 @@
+package thenewboston.intermediate;
+
+import javax.swing.JFrame;
+
+public class DrawingOvalWithSlider_24 extends JFrame {
+
+}
